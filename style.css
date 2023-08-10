@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: #222222;
+    height: 70px;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* CSS da logomarca */
+
+.logo {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px #b4f737;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.logo a {
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*  CSS logomarca/animações */
+
+.logo a:hover {
+    color: #b4f737;
+}
+
+.logo:hover {
+    border: solid 5px #fff; 
+    border-radius: 10px;
+    border-top-left-radius: 10px;  
+}
+
+/* CSS intens do menu */
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-family: arial;
+    font-size: 14px;
+}
+
+nav .active a,
+nav a:hover {
+    color: #b4f737;
+}
+
+/* CSS section / background  */
+
+#pagina_inicial {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(/_midia/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container_dois {
+    display: flex;
+    width: 990px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 100px;
+    max-width: 850px;
+}
+
+h2 {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 30px;
+    width: 990px;
+    padding-top: 60px;
+    color: #fff;
+}
+
+/* CSS página de produtos */
+
+#produto {
+    display: flex;
+    height: auto;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* CSS widget_produtos  */
+
+
+
+h3 {
+    display: flex;
+    height: 340px;
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+    text-transform: uppercase;
+    font-size: 100px;
+    text-transform: uppercase;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+/* CSS títulos/textos */
+
+.titulos {
+    display: flex;
+    height: 150px;
+    width: 990px;
+    justify-content: space-around;
+
+}
+
+.numeros {
+    color: #b4f737;
+    font-size: 23px;
+}
+
+.titulos h4 {
+    display: flex;
+    align-items: flex-end;
+    font-size: 23px;
+    font-family: 'Poppin', sans-serif;
+    text-transform: uppercase;
+    color: #444;
+}
+
+.textos {
+    display: flex;
+    width: 990px;
+    justify-content: space-around;
+}
+
+.textos p {
+    padding-top: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    max-width: 240px;
+    text-align: left;
+}
+
+/* CSS video */
+
+.video {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 120px;
+
+}
+
+/* CSS página Sobre  */
+
+#sobre {
+    display: flex;
+    height: auto;
+    background-color: #b4f737;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#sobre h4 {
+    display: flex;
+    height: 250px;
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-size: 100px;
+    text-transform: uppercase;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.sobre {
+    display: flex;
+    width: 990px;
+    padding-top: 100px;
+    height: 150px;
+}
+
+.icones {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.icones img {
+    display: flex;
+    height: 100px;
+}
+
+.risco {
+    display: flex;
+    width: 990px;
+    justify-content: space-around;
+}
+
+.risco p {
+    border-top: 6px solid #444;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
