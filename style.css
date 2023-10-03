@@ -84,7 +84,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     height: 100vh;
-    background-image: url(/_midia/background.jpg);
+    background-image: url(/midia/background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -251,7 +251,57 @@ h3 {
     margin-bottom: 60px;
 }
 
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
 
+.modal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 150px;
+    width: 760px;
+    height: 394px;    
+    background-color: #b4f737;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.informacoes span {
+    font-family: 'Poppin', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.informacoes span img{
+    width: 20px;
+    height: 20px;
+    padding-right: 15px;
+}
+
+.informacoes p {
+    font-family: 'Poppin', sans-serif;
+    padding-left: 60px;
+    font-size: 14px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background: #222222;
+    color: #b4f737;
+}
 
 
 

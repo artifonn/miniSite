@@ -1,3 +1,4 @@
-# Mini site
+### Atividade de Web Design
 
-Principais tecnologias utilzadas: HTML e CSS.
+## Principais tecnologias utilzadas: HTML e CSS.
+
